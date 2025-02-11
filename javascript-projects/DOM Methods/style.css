@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    border: 2px solid blue;
+    display:grid;
+    max-width: 450px;
+    align-items: center;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,190,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+.btn{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: antiquewhite;
+    color: cadetblue;
+}
+#employeeList{
+    border: 2px solid red;
+    max-width: 450px;
+    min-height: 50px;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: -25px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,190,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+#list{
+
+    list-style-type:none;
+    
+    
+}
+
+li {
+    background-color: antiquewhite;
+    color: cadetblue;
+    margin: 10px 30px; 
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}

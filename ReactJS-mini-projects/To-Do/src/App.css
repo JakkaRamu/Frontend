@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+li{
+    list-style-type:none;
+    
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0e9e9;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: none;
+
+}
+.listItems{
+    margin-top: 30px;
+    text-align: center;
+}
+.operations-btns{
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+.compTask-btn{
+    margin-right: 15px;
+}
+input,.add-btn{
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: none;
+}
+input{
+    margin-right: 30px;
+}
+.hero{
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:rgb(214, 205, 205);
+   
+}
